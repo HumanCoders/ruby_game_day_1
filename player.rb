@@ -6,4 +6,8 @@ class Player < StaticObject
   def motif
     @motif.green
   end
+
+  def move(x, y)
+    @x, @y = x, y
+  end
 end

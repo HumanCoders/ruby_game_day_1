@@ -17,4 +17,9 @@ def draw(nb_rows, nb_columns, objects)
   puts
 end
 
-draw 4, 5, player: Player.new(2, 3), ruby: Ruby.new(4, 4)
+p = Player.new(2, 3)
+r = Ruby.new(4, 4)
+
+draw 4, 5, player: p, ruby: r
+p.move(2, 2)
+draw 4, 5, player: p, ruby: r
