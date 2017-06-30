@@ -12,4 +12,4 @@ def draw(nb_rows, nb_columns, player)
   puts
 end
 
-draw(4, 5, { x: 2, y: 3 })
+draw 4, 5, x: 2, y: 3
